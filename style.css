@@ -1,0 +1,48 @@
+div {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.box-relativo {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.container {
+    position: relative;
+}
+
+.box-absoluto {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.box-fixo {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: brown;
+}
+
+.horizontal {
+    width: 100px;
+    height: 100px;
+}
+
+.box-sticky {
+    position: sticky;
+    top: 20px;
+    left: 20px;
+}
+
+.meu-link {
+    text-decoration: none;
+}
